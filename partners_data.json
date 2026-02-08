@@ -1,0 +1,28 @@
+[
+  {
+    "id": "groupe_international_pour_le_r",
+    "name": "Groupe International pour le Renforcement des Capacités Féminines",
+    "type": "National",
+    "description": "Membre du réseau CCEABT",
+    "email": "gircafem2006@gmail.com",
+    "logo": "/partners/image1.png",
+    "password": "password123"
+  },
+  {
+    "id": "sos_vita",
+    "name": "SOS VITA",
+    "type": "National",
+    "description": "Membre du réseau CCEABT",
+    "logo": "/partners/image2.jpeg",
+    "password": "password123"
+  },
+  {
+    "id": "pionniers_en_action_pour_le_d_",
+    "name": "Pionniers en Action pour le Développement Intégré à l’Environnement",
+    "type": "National",
+    "description": "Membre du réseau CCEABT",
+    "email": "info.padie@gmail.com",
+    "logo": "/partners/image3.jpg",
+    "password": "password123"
+  }
+]

@@ -1,0 +1,374 @@
+MANUEL D’UTILISATION DU SITE WEB CCEABT
+
+====================================================
+1. PRÉSENTATION GÉNÉRALE DU SITE
+====================================================
+
+Le site web CCEABT est le site institutionnel du Centre de Compétences en Éducation et en Accompagnement Basé sur les Technologies (CCEABT). 
+Il a pour objectifs principaux :
+- Présenter l’institution, sa mission et ses activités.
+- Mettre en valeur le réseau et les partenaires.
+- Diffuser des actualités / nouvelles.
+- Permettre la prise de contact via un formulaire.
+- Offrir une interface d’administration (accès restreint) pour gérer certains contenus.
+
+Le site est optimisé pour un usage sur ordinateur, tablette et smartphone (responsive).
+
+
+====================================================
+2. ACCÈS AU SITE
+====================================================
+
+2.1. URL publique (visiteurs)
+--------------------------------
+
+Les visiteurs accèdent au site via l’URL publique principale (par exemple :
+- https://votre-domaine-principal/  
+
+Cette URL affiche la page d’accueil (« Home »).
+
+
+2.2. Accès à l’interface d’administration
+-----------------------------------------
+
+L’interface d’administration est accessible via une URL dédiée :
+- https://votre-domaine-principal/cceabtadmin
+
+Points importants :
+- Cette URL charge directement la page d’administration du site.
+- L’accès peut être sécurisé (par exemple, via un système d’authentification ou des restrictions réseau, selon votre déploiement). 
+- Ne communiquez cette URL qu’aux personnes autorisées à administrer le site.
+
+
+====================================================
+3. STRUCTURE GLOBALE DU SITE POUR L’UTILISATEUR
+====================================================
+
+Le site est organisé en plusieurs pages principales, accessibles via le menu (en haut de la page) et le pied de page.
+
+Les pages clés sont :
+- Accueil (Home)
+- À propos (About)
+- Réseau (Network)
+- Actualités / Nouvelles (News)
+- Contact (Contact)
+- Partenaires (Partners)
+- Administration (Admin – accès restreint via /cceabtadmin)
+
+
+3.1. En-tête (Header)
+---------------------
+
+L’en-tête (Header) est présent en haut de chaque page et contient en général :
+- Le logo ou l’identité visuelle du CCEABT.
+- Le menu de navigation principal avec les liens vers : Accueil, À propos, Réseau, Actualités, Partenaires, Contact.
+
+Fonctionnement :
+- En cliquant sur un élément du menu, la page affichée change sans rechargement complet du site.
+- La page en cours peut être mise en évidence (style visuel différent).
+
+
+3.2. Pied de page (Footer)
+--------------------------
+
+Le pied de page est visible en bas de chaque page et peut contenir :
+- Rappels de navigation (liens vers les principales sections).
+- Mentions légales ou informations institutionnelles.
+- Coordonnées de contact ou liens vers les réseaux sociaux (selon configuration).
+
+Fonctionnement :
+- Comme pour le Header, les liens du Footer permettent de naviguer vers les autres pages du site.
+
+
+====================================================
+4. DESCRIPTION DES PAGES PUBLIQUES
+====================================================
+
+4.1. Page d’accueil – « Home »
+------------------------------
+
+Rôle :
+- C’est la porte d’entrée du site.
+- Présente rapidement le CCEABT, sa mission, ses objectifs, et met en avant les informations essentielles.
+
+Éléments typiques :
+- Une section « Hero » (bandeau principal) avec un titre, un sous-titre, et éventuellement un bouton d’action (par exemple « En savoir plus » ou « Rejoindre le réseau »).
+- Des blocs de mise en avant : actions, chiffres clés, extraits d’actualités ou de projets.
+
+Interactions utilisateur :
+- Cliquer sur les boutons permet de :
+  - Naviguer vers d’autres pages (par exemple À propos, Réseau, Contact).
+  - Accéder à des formulaires (inscription, prise de contact, etc.).
+
+
+4.2. Page « À propos » – About
+------------------------------
+
+Rôle :
+- Présenter en détail l’institution CCEABT : historique, mission, vision, valeurs, équipe, axes stratégiques, etc.
+
+Contenu typique :
+- Texte explicatif structuré en sections (par ex. « Mission », « Vision », « Objectifs », « Historique »).
+- Éventuels visuels ou infographies (selon la mise en page).
+
+Usage pour le visiteur :
+- Comprendre le rôle du CCEABT.
+- Identifier les thématiques et domaines d’intervention.
+
+
+4.3. Page « Réseau » – Network
+-------------------------------
+
+Rôle :
+- Présenter le réseau de membres, partenaires institutionnels, ou acteurs avec lesquels travaille le CCEABT.
+
+Contenu typique :
+- Liste de membres ou d’organisations avec :
+  - Nom
+  - Rôle ou type (université, institution, association, etc.)
+  - Brève description
+- Éventuels filtres ou catégories de membres (selon la configuration du site).
+
+Usage pour le visiteur :
+- Découvrir l’écosystème du CCEABT.
+- Voir la diversité des partenaires impliqués.
+
+
+4.4. Page « Actualités » – News
+--------------------------------
+
+Rôle :
+- Diffuser les actualités liées au CCEABT : événements, publications, annonces, projets, appels à participation, etc.
+
+Contenu typique :
+- Liste de nouvelles / articles présentés sous forme de cartes ou de blocs.
+- Pour chaque actualité :
+  - Titre
+  - Date
+  - Résumé
+  - Lien ou bouton pour « En savoir plus ».
+
+Interactions :
+- Cliquer sur une actualité peut :
+  - Afficher le contenu détaillé sur une même page (déroulement ou modal).
+  - Rediriger vers une autre page ou un document externe (selon la configuration).
+
+
+4.5. Page « Partenaires » – Partners
+------------------------------------
+
+Rôle :
+- Mettre en valeur les partenaires stratégiques ou institutionnels du CCEABT.
+
+Contenu typique :
+- Logos des partenaires.
+- Courtes descriptions.
+- Liens vers leurs sites web, le cas échéant.
+
+Usage :
+- Valoriser les collaborations.
+- Montrer la crédibilité institutionnelle du CCEABT.
+
+
+4.6. Page « Contact » – Contact
+--------------------------------
+
+Rôle :
+- Permettre aux visiteurs de prendre contact avec le CCEABT.
+
+Contenu typique :
+- Formulaire de contact avec plusieurs champs possibles :
+  - Nom / Prénom
+  - Adresse e-mail
+  - Organisation (facultatif)
+  - Sujet du message
+  - Message détaillé
+- Coordonnées de contact (adresse, téléphone, e-mail général, etc.).
+
+Fonctionnement du formulaire :
+- L’utilisateur remplit les champs obligatoires.
+- Il clique sur « Envoyer ».
+- Le site affiche un message de confirmation ou d’erreur (en cas de champ manquant ou d’erreur technique).
+
+Recommandations à l’utilisateur :
+- Vérifier que l’adresse e-mail saisie est correcte.
+- Fournir un message suffisamment détaillé pour faciliter la réponse.
+
+
+====================================================
+5. NAVIGATION ET COMPORTEMENT GÉNÉRAL
+====================================================
+
+5.1. Navigation principale
+--------------------------
+
+- La navigation se fait principalement via :
+  - Le menu en haut de page (Header).
+  - Les liens dans le pied de page (Footer).
+- Le changement de page est immédiat, sans rechargement complet du site (application React).
+
+
+5.2. Comportement du défilement (scroll)
+----------------------------------------
+
+- Lorsque vous changez de page, la fenêtre remonte automatiquement en haut de la page (défilement vers le haut en douceur).
+- Cela assure une lecture cohérente de chaque nouvelle page affichée.
+
+
+5.3. Comportement sur appareils mobiles
+---------------------------------------
+
+- Le site s’adapte automatiquement à la taille de l’écran (responsive design).
+- Le menu peut être présenté sous forme de menu « hamburger » ou de menu adapté aux petits écrans (selon la mise en page).
+
+Conseils pour les utilisateurs sur mobile :
+- Utiliser l’orientation portrait pour une lecture standard.
+- Basculer éventuellement en paysage pour mieux visualiser certains tableaux ou contenus larges.
+
+
+====================================================
+6. INTERFACE D’ADMINISTRATION (/cceabtadmin)
+====================================================
+
+L’interface d’administration est destinée aux personnes autorisées à gérer le contenu ou certains paramètres du site.
+
+6.1. Accès à l’admin
+--------------------
+
+- URL : https://votre-domaine-principal/cceabtadmin
+- À l’ouverture de cette URL, le site affiche directement la page d’administration.
+- L’URL reste spécifique : lorsqu’on quitte cette page, l’URL peut être ramenée à la racine du site (/).
+
+
+6.2. Objectifs de la page Admin
+-------------------------------
+
+Selon la configuration précise implémentée, la page Admin permet notamment :
+- De visualiser et/ou modifier certains contenus (ex. actualités, membres du réseau, partenaires, etc.).
+- D’accéder à des formulaires de gestion (ajout, suppression, édition de contenus).
+- D’interagir avec une base de données ou un service externe (par exemple via Supabase) pour stocker les données.
+
+
+6.3. Utilisation générale (conceptuelle)
+---------------------------------------
+
+Même si le détail exact des fonctions dépend de l’implémentation finale, le flux typique est :
+
+1. Se rendre sur l’URL d’admin :
+   - Ouvrir un navigateur.
+   - Aller sur https://votre-domaine-principal/cceabtadmin.
+
+2. Se connecter ou être reconnu (si un système d’authentification est mis en place) :
+   - Saisir ses identifiants.
+   - Cliquer sur « Connexion ».
+
+3. Gérer le contenu :
+   - Accéder à une section (exemple : « Actualités », « Réseau », « Partenaires »).
+   - Ajouter un nouvel élément via un formulaire.
+   - Modifier un élément existant.
+   - Supprimer un élément obsolète (avec prudence).
+
+4. Enregistrer / valider les modifications :
+   - Cliquer sur « Enregistrer », « Sauvegarder » ou un bouton équivalent.
+   - Vérifier que les changements apparaissent bien sur la partie publique du site.
+
+
+====================================================
+7. RECOMMANDATIONS D’USAGE POUR LES ADMINISTRATEURS
+====================================================
+
+7.1. Gestion des contenus
+-------------------------
+
+- Toujours relire les textes avant de les publier.
+- Vérifier l’orthographe, la clarté et la cohérence avec la ligne éditoriale du CCEABT.
+- Pour les actualités, indiquer clairement :
+  - La date
+  - Le contexte
+  - Les appels à action (inscription, participation, etc.).
+
+
+7.2. Mise à jour régulière
+--------------------------
+
+- Mettre à jour régulièrement :
+  - Les actualités (News)
+  - Les membres du réseau (Network)
+  - Les partenaires (Partners)
+- Supprimer ou archiver les contenus obsolètes pour éviter la confusion.
+
+
+7.3. Sécurité et confidentialité
+--------------------------------
+
+- Ne pas partager l’URL d’administration et les identifiants avec des personnes non autorisées.
+- Utiliser des mots de passe forts et les renouveler régulièrement.
+- Si un compte administrateur est compromis, le désactiver ou modifier les identifiants immédiatement.
+
+
+====================================================
+8. ASSISTANCE À L’UTILISATEUR FINAL
+====================================================
+
+8.1. Problèmes d’affichage
+---------------------------
+
+Si un visiteur rencontre des problèmes d’affichage :
+- Lui conseiller de :
+  - Actualiser la page (touche F5 ou bouton de rechargement).
+  - Vider le cache du navigateur si nécessaire.
+  - Tester un autre navigateur (Chrome, Firefox, Edge, Safari).
+
+
+8.2. Problèmes d’envoi de formulaire de contact
+-----------------------------------------------
+
+- Vérifier que tous les champs obligatoires sont bien remplis.
+- Vérifier le format de l’adresse e-mail.
+- En cas de message d’erreur persistant, demander à l’utilisateur de :
+  - Réessayer plus tard.
+  - Ou envoyer un e-mail directement à l’adresse de contact institutionnelle.
+
+
+8.3. Problèmes d’accès à l’admin
+--------------------------------
+
+Pour les administrateurs :
+- Vérifier l’URL (/cceabtadmin).
+- Vérifier l’orthographe du nom d’utilisateur et du mot de passe.
+- Si l’accès est toujours impossible :
+  - Contacter l’équipe technique ou la personne responsable du site.
+
+
+====================================================
+9. BONNES PRATIQUES D’EXPLOITATION
+====================================================
+
+- Tester le site après chaque mise à jour de contenu important.
+- Vérifier régulièrement la page d’accueil, les actualités, et la page Contact pour :
+  - Détecter des liens brisés.
+  - Confirmer que les formulaires fonctionnent.
+- Garder une cohérence visuelle (logos, couleurs, tonalité des messages).
+
+
+====================================================
+10. RÉSUMÉ RAPIDE POUR NOUVEAU VENANT
+====================================================
+
+Pour un nouvel utilisateur du site (visiteur) :
+- Aller sur l’URL principale pour découvrir le CCEABT.
+- Utiliser le menu en haut pour explorer :
+  - Accueil : vue d’ensemble.
+  - À propos : mission, vision, contexte.
+  - Réseau : membres et écosystème.
+  - Actualités : événements et nouvelles.
+  - Partenaires : organisations associées.
+  - Contact : formulaire pour écrire au CCEABT.
+
+Pour un administrateur :
+- Utiliser uniquement l’URL d’administration : /cceabtadmin.
+- Mettre à jour les actualités, le réseau, les partenaires et les informations clés.
+- Vérifier régulièrement que tout s’affiche correctement sur la partie publique du site.
+
+
+Fin du manuel d’utilisation.
